@@ -1,0 +1,54 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/Users/frinko/project/newBatis2/mybatis-sql-renderer/src/main/java:/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'Frinko SQL Renderer 1.0.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Frinko SQL Renderer 1.0.0 API'
+frinko.sql.renderer.config
+frinko.sql.renderer.internal
+frinko.sql.renderer.render
+frinko.sql.renderer.expr
+frinko.sql.renderer.parser
+frinko.sql.renderer.parser.model
+frinko.sql.renderer.parser.ast
+frinko.sql.renderer.api
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/src/main/java = 1763004621869
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/generated-sources/annotations = 1763012455053
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/tag-search-index.js = 1763012474067
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/overview-tree.html = 1763012474053
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/module-search-index.js = 1763012474065
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/index.html = 1763012474055
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/package-search-index.js = 1763012474066
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/jquery-ui.overrides.css = 1763012474086
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/index-all.html = 1763012474075
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/allpackages-index.html = 1763012474065
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/member-search-index.js = 1763012474067
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/script.js = 1763012474081
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/stylesheet.css = 1763012474081
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/overview-summary.html = 1763012474076
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/help-doc.html = 1763012474080
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/element-list = 1763012473977
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/allclasses-index.html = 1763012474064
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/type-search-index.js = 1763012474066
+/Users/frinko/project/newBatis2/mybatis-sql-renderer/target/apidocs/search.js = 1763012474082

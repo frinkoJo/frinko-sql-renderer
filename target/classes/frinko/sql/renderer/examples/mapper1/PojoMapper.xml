@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.demo.PojoMapper">
+  <select id="byEntity">
+    SELECT * FROM t_user
+    <where>
+      <if test="id != null"> AND id = #{id} </if>
+      <if test="name != null &amp;&amp; name != ''"> AND name = #{name} </if>
+      <if test="addr != null &amp;&amp; addr.city != null"> AND city = #{addr.city} </if>
+    </where>
+  </select>
+
+  <select id="byEntityParam">
+    SELECT * FROM t_user
+    <where>
+      <if test="user != null &amp;&amp; user.id != null"> AND id = #{user.id} </if>
+      <if test="user != null &amp;&amp; user.name != null &amp;&amp; user.name != ''"> AND name = #{user.name} </if>
+      <if test="user != null &amp;&amp; user.addr != null &amp;&amp; user.addr.city != null"> AND city = #{user.addr.city} </if>
+    </where>
+  </select>
+</mapper>
