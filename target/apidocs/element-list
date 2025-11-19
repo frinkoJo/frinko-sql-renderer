@@ -1,5 +1,8 @@
+未命名程序包
 frinko.sql.renderer.api
 frinko.sql.renderer.config
+frinko.sql.renderer.examples
+frinko.sql.renderer.examples.com.demo
 frinko.sql.renderer.expr
 frinko.sql.renderer.internal
 frinko.sql.renderer.parser

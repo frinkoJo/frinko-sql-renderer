@@ -1,0 +1,24 @@
+-encoding
+'UTF-8'
+-protected
+--release
+8
+-sourcepath
+'/Users/frinko/github/frinko-sql-renderer/src/main/java:/Users/frinko/github/frinko-sql-renderer/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/frinko/github/frinko-sql-renderer/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Frinko SQL Renderer 1.0.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/frinko/github/frinko-sql-renderer/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Frinko SQL Renderer 1.0.0 API'
