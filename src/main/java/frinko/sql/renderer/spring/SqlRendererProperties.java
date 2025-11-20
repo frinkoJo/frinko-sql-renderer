@@ -10,6 +10,7 @@ public class SqlRendererProperties {
     private List<String> mapperLocations = new ArrayList<>();
     private List<String> mapperScanPackages = new ArrayList<>();
     private boolean exposeDefaultParamNames = false;
+    private boolean checkRawPlaceholders = true;
 
     public List<String> getMapperLocations() { return mapperLocations; }
     public void setMapperLocations(List<String> mapperLocations) { this.mapperLocations = mapperLocations; }
@@ -19,4 +20,7 @@ public class SqlRendererProperties {
 
     public boolean isExposeDefaultParamNames() { return exposeDefaultParamNames; }
     public void setExposeDefaultParamNames(boolean exposeDefaultParamNames) { this.exposeDefaultParamNames = exposeDefaultParamNames; }
+
+    public boolean isCheckRawPlaceholders() { return checkRawPlaceholders; }
+    public void setCheckRawPlaceholders(boolean checkRawPlaceholders) { this.checkRawPlaceholders = checkRawPlaceholders; }
 }

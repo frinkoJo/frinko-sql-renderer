@@ -32,6 +32,7 @@ public class SqlRendererAutoConfiguration {
     public SqlRenderEngine sqlRenderEngine(SqlRendererProperties props) {
         RenderOptions options = new RenderOptions();
         options.exposeDefaultParamNames = props.isExposeDefaultParamNames();
+        options.checkRawPlaceholders = props.isCheckRawPlaceholders();
         frinko.sql.renderer.internal.NamespaceRegistry reg = new frinko.sql.renderer.internal.NamespaceRegistry();
         XmlMapperParser parser = new XmlMapperParser(options, reg);
         PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();

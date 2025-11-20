@@ -7,7 +7,7 @@
 
     <groupId>io.github.frinkojo</groupId>
     <artifactId>sql-renderer</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <packaging>jar</packaging>
 
     <name>Frinko SQL Renderer</name>
