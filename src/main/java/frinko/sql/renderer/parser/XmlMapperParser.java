@@ -33,6 +33,12 @@ public final class XmlMapperParser {
 
     public void parse(Path xml) {
         try (InputStream in = Files.newInputStream(xml)) {
+            parse(in);
+        } catch (Exception e) { throw new RuntimeException(e); }
+    }
+
+    public void parse(InputStream in) {
+        try {
             DocumentBuilderFactory f = DocumentBuilderFactory.newInstance();
             DocumentBuilder b = f.newDocumentBuilder();
             Document d = b.parse(in);

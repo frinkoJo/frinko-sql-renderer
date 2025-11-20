@@ -33,6 +33,8 @@ public final class SqlRenderEngine {
         return new SqlRenderEngine(reg, options);
     }
 
+    public static SqlRenderEngine fromRegistry(NamespaceRegistry registry, RenderOptions options){ return new SqlRenderEngine(registry, options); }
+
     public RenderedSql renderByNamespace(String namespace, String statementId, Object paramObject){
         MappedStatement ms = registry.getStatement(namespace, statementId);
         if (ms == null) throw new RuntimeException(namespace + ":" + statementId);
